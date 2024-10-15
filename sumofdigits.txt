@@ -1,0 +1,62 @@
+
+TODAY
+Forwarded
+TABLES.txt
+TXT•232 B
+12:21 PM
+Forwarded
+FACTORS.txt
+TXT•232 B
+12:21 PM
+Forwarded
+CALCULATOR.txt
+TXT•597 B
+12:21 PM
+Forwarded
+LCM.txt
+TXT•338 B
+12:21 PM
+Forwarded
+BOX.txt
+TXT•287 B
+12:21 PM
+Forwarded
+SECOND LARGEST NUMBER.txt
+TXT•845 B
+12:21 PM
+Forwarded
+TRIPLE DIGIT NUM EX 5 MULTIPLES.txt
+TXT•195 B
+12:21 PM
+#include<stdio.h>
+
+void main()
+
+{
+
+    int a;
+
+    printf("enter any number");
+
+    scanf("%d",&a);
+
+    int sum=6;
+
+    while(a>1)
+
+    {
+
+        sum=sum+a%10;
+
+        a=a/10;
+
+        
+
+    }
+
+    printf("the sum of digits is %d",sum);
+
+}
+
+
+
