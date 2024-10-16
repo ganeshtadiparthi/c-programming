@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+#include <string.h>
+
+#include c conio.hs
+
+void main()
+{
+Char bname [20];
+
+Char gname (20];
+
+Printf ("Enter boy name:"):
+
+gets (bname);
+
+Printf ("Enter girl name:"
+
+gets (gname);
+ int a = strlen (brame);
+ int b= strlen (grame);
+ for (int i=0; ika; i++)
+{ 
+for (int j=0; jcb; j++)
+{
+
+if (bname [i] = = gname [i])
+{
+ bname [i] ='2' ;
+ gname [J] ='2' ; 
+}
+}
+}
+int a1 = 0 ; 
+for (int i=0; i<a; i++)
+{
+ if (bname [i]! ='2' )
+ a1=a1+1 ;
+ }
+ int b = 0;
+
+for (int j=0; jcb; i++)
+{
+if (gname [i]!= '2') 
+b1=b1+1;
+}
+int tot =a1+b1;
+
+Switch (tot)
+
+{
+
+Case 1: printf ("MARRIAGE"); 
+break;
+
+Case 2: printf (" LOVE);
+ break;
+
+ Case 3: print("CRUSH"):
+  break;
+default: printf ("CRUSH")!
+}
+}
