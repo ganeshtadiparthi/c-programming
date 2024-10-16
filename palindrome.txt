@@ -1,0 +1,18 @@
+#include <stdio.ho
+#include & String.h>
+#include <conio.h>
+void main()
+{
+Char a[20]= "MALAYALAM";
+int l = strlen (a)-1;
+for (int i=0, j=1; 1<=j; i++, j--)
+{
+if (a[i] != a[j])
+{
+printf (" It is not palindrome");
+ return;
+}
+}
+
+printf ("It is palindrome");
+}
